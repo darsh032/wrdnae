@@ -4,6 +4,7 @@
     import-tree.url = "github:vic/import-tree";
     flake-parts.url = "github:hercules-ci/flake-parts";
     wrappers.url = "github:Lassulus/wrappers";
+    devshell.url = "github:numtide/devshell";
     systems = {
       url = "github:nix-systems/default";
     };
