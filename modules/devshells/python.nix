@@ -1,15 +1,17 @@
 {
-  perSystem = {self', pkgs, ...}: {
+  perSystem = { self', pkgs, ... }: {
     devshells.python = {
-      env = [
-        {
-          SHELL = "fish";
-        }
-      ];
-      packages = [
-        self'.packages.hx-python
-        python3
-      ];
+      devshell = {
+        packages = [
+          pkgs.fish
+          self'.packages.hx-python
+          pkgs.python3
+        ];
+
+        interactive.fish.text = ''
+          exec fish
+        '';
+      };
     };
   };
 }
