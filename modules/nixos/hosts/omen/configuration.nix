@@ -1,6 +1,8 @@
-{
-  flake.modules.nixos.omen = {config, pkgs, ...}: {
-    imports = with config.flake.modules.nixos; [
+{config, ...}: let
+  inherit (config) flake;
+in {
+  flake.modules.nixos.omen = {pkgs, ...}: {
+    imports = with flake.modules.nixos; [
       hyprland
       helix
       nvidia
