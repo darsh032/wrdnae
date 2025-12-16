@@ -1,6 +1,6 @@
-{ config, pkgs, inputs, ... }:
-
-{
+{ config, inputs, ... }: let
+  userName = config.flake.settings.username;
+in {
   flake.modules.nixos.hjem = {pkgs, ...}: {
     users.users.awesome = {
       isNormalUser = true;
@@ -85,5 +85,5 @@
 
     systemd.services."getty@tty1".enable = false;
     systemd.services."autovt@tty1".enable = false;
-  }
+  };
 }
