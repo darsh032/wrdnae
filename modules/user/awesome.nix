@@ -13,6 +13,9 @@ in {
       extraGroups = [ "networkmanager" "wheel" ];
     
       packages = with pkgs; [
+        # Trying out
+        nh
+        
         # Caelestia
         inputs.caelestia-shell.packages."x86_64-linux".default
         inputs.caelestia-cli.packages."x86_64-linux".default
