@@ -18,8 +18,9 @@ status is-interactive; and begin
     # Abbreviations
 
     # Aliases
-    alias qsd 'nix develop ~/dix#quickshell'
-    alias rsd 'nix develop ~/dix#rustlings'
+    alias qsd 'nix develop ~/wrdnae#quickshell'
+    alias rsd 'nix develop ~/wrdnae#rustlings'
+    alias v 'nix run ~/wrdnae#nvf-regular'
     alias ls 'eza --icons'
     alias hjem-pure 'systemd-tmpfiles --user --create'
 
