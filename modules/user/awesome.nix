@@ -19,25 +19,15 @@ in {
         # lmao
         (writeShellScriptBin "15" ''
           #!${pkgs.bash}/bin/bash
+          set -e
 
-          cp -r 15 16
-          cp -r 15 17
-          cp -r 15 18
-          cp -r 15 19
-          cp -r 15 20
-          cp -r 15 21
-          cp -r 15 22
-          cp -r 15 23
-          cp -r 15 24
-          cp -r 15 25
-          cp -r 15 26
-          cp -r 15 27
-          cp -r 15 28
-          cp -r 15 29
+          mkdir -p exp
 
-          mkdir 30
-          mv ./* 30
-          mv 30 15
+          [ "$(ls -A exp)" ] || mkdir exp/0
+
+          for d in exp/*; do
+            cp -r "$d" "exp/$(basename "$d")_copy"
+          done
         '')
         
         # Caelestia
