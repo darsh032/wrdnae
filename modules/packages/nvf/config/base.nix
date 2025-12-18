@@ -5,6 +5,7 @@
       options.shiftwidth = 2;
       theme = {
         enable = true;
+        transparent = true;
         name = "catppuccin";
         style = "mocha";
       };

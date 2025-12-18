@@ -4,6 +4,7 @@
       base
       plugs
       languages
+      bufferline
     ];
   };
 }
