@@ -27,6 +27,7 @@ in {
         # idk
         eza
         zoxide
+        zellij
         bat
         glow
         starship
