@@ -5,6 +5,7 @@
     (config.flake.modules.nvf)
     regular
     rust
+    python
     ;
 in {
   perSystem = {pkgs, ...}: let
@@ -16,6 +17,7 @@ in {
     packages = {
       nvf-regular = mkNvf [regular];
       nvf-rust = mkNvf [regular rust];
+      nvf-python = mkNvf [regular python];
     };
   };
 }
