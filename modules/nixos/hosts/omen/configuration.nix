@@ -4,7 +4,6 @@ in {
   flake.modules.nixos.omen = {pkgs, ...}: {
     imports = with flake.modules.nixos; [
       hyprland
-      helix
       nvidia
       hjem
     ];
