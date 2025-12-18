@@ -12,6 +12,10 @@
         enable = true;
         providers.wl-copy.enable = true;
       };
+
+      luaConfigRC.clipboard = ''
+        vim.opt.clipboard = "unnamedplus"
+      '';
     };
   };
 }
