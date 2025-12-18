@@ -15,6 +15,7 @@
       };
       luaConfigRC.clipboard = ''
         vim.opt.clipboard = "unnamedplus"
+        vim.opt.fillchars = { eob = " " }
       '';
       keymaps = [
         {
