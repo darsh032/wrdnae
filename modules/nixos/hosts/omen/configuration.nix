@@ -6,6 +6,7 @@ in {
       hyprland
       nvidia
       hjem
+      flatpaks
     ];
 
     services.displayManager.gdm.enable = true;

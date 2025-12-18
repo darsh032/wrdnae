@@ -8,6 +8,7 @@
     hjem-impure.url = "github:Rexcrazy804/hjem-impure";
     hjem.url = "github:feel-co/hjem";
     nvf.url = "github:notashelf/nvf";
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
     systems = {
       url = "github:nix-systems/default";
     };
