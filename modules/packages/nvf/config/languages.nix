@@ -12,7 +12,6 @@
 
       diagnostics = {
         enable = true;
-
         config = {
           underline = true;
           virtual_text = true;
