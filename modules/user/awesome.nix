@@ -1,20 +1,26 @@
-{ config, inputs, self, ... }: let
+{
+  config,
+  inputs,
+  self,
+  ...
+}: let
   userName = config.flake.settings.username;
 in {
   flake.modules.nixos.hjem = {pkgs, ...}: {
     imports = [
       inputs.hjem.nixosModules.default
     ];
-    
+
     users.users.${userName} = {
       isNormalUser = true;
       description = "person";
       shell = pkgs.fish;
-      extraGroups = [ "networkmanager" "wheel" ];
-    
+      extraGroups = ["networkmanager" "wheel"];
+
       packages = with pkgs; [
         # Trying out
         nh
+        node
 
         # Caelestia
         inputs.caelestia-shell.packages."x86_64-linux".default
@@ -32,7 +38,7 @@ in {
         glow
         starship
         nerd-fonts.jetbrains-mono
-      
+
         # Hyprland stuff
         kitty
         fuzzel
@@ -48,8 +54,8 @@ in {
     hjem = let
       dotsDir = "${./dots}";
     in {
-      extraModules = [ inputs.hjem-impure.hjemModules.default ];
-    
+      extraModules = [inputs.hjem-impure.hjemModules.default];
+
       users.${userName} = {
         impure = {
           enable = true;
@@ -58,7 +64,7 @@ in {
         };
 
         clobberFiles = true;
-      
+
         xdg.config.files = let
           dots = dotsDir;
         in {
@@ -75,7 +81,7 @@ in {
           # Quickshell
           "quickshell/mane".source = dots + "/quickshell";
         };
-      
+
         files = let
           dots = dotsDir;
         in {

@@ -8,6 +8,18 @@
           treesitter.enable = true;
           format.enable = true;
         };
+        ts = {
+          enable = true;
+          lsp.enable = true;
+          treesitter.enable = true;
+          format.enable = true;
+        };
+        svelte = {
+          enable = true;
+          lsp.enable = true;
+          treesitter.enable = true;
+          format.enable = true;
+        };
       };
 
       diagnostics = {
