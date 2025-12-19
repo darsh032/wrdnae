@@ -9,6 +9,7 @@
     hjem.url = "github:feel-co/hjem";
     nvf.url = "github:notashelf/nvf";
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
+    quickshell.url = "github:quickshell-mirror/quickshell";
     systems = {
       url = "github:nix-systems/default";
     };
