@@ -20,7 +20,7 @@ in {
       packages = with pkgs; [
         # Trying out
         nh
-        node
+        nodejs
 
         # Caelestia
         inputs.caelestia-shell.packages."x86_64-linux".default
