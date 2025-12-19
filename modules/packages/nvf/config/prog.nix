@@ -1,7 +1,7 @@
-{
+{lib, ...}: {
   flake.modules.nvf.prog = {
     vim = {
-      options.shiftwidth = 4;
+      options.shiftwidth = lib.mkForce 4;
     };
   };
 }
