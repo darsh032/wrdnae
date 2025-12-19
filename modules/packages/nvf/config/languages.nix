@@ -8,12 +8,6 @@
           treesitter.enable = true;
           format.enable = true;
         };
-        qml = {
-          enable = true;
-          lsp.enable = true;
-          treesitter.enable = true;
-          format.enable = true;
-        };
       };
 
       diagnostics = {

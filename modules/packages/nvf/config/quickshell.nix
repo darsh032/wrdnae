@@ -1,8 +1,8 @@
 {
-  flake.modules.nvf.python = {
+  flake.modules.nvf.quickshell = {
     vim = {
       languages = {
-        python = {
+        qml = {
           enable = true;
           lsp.enable = true;
           treesitter.enable = true;
