@@ -18,6 +18,11 @@
           signs = true;
         };
       };
+
+      lsp = {
+        enable = true;
+        formatOnSave = true;
+      };
     };
   };
 }

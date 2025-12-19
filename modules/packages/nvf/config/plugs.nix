@@ -10,7 +10,7 @@
       telescope.enable = true;
       autocomplete.blink-cmp.enable = true;
       visuals = {
-        indent-blankline.enable = false;
+        indent-blankline.enable = true;
         nvim-web-devicons.enable = true;
       };
       binds = {
@@ -26,4 +26,3 @@
     };
   };
 }
-
