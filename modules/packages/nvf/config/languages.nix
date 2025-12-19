@@ -8,13 +8,7 @@
           treesitter.enable = true;
           format.enable = true;
         };
-        ts = {
-          enable = true;
-          lsp.enable = true;
-          treesitter.enable = true;
-          format.enable = true;
-        };
-        svelte = {
+        csharp = {
           enable = true;
           lsp.enable = true;
           treesitter.enable = true;
