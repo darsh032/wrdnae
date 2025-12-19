@@ -18,6 +18,9 @@
       ui = {
         noice.enable = true;
       };
+      utility = {
+        multicursors.enable = true;
+      };
     };
   };
 }

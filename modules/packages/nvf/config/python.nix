@@ -9,6 +9,7 @@
           format.enable = true;
         };
       };
+      options.shiftwidth = 4;
     }; 
   };
 }

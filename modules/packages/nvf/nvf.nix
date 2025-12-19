@@ -6,6 +6,7 @@
     regular
     rust
     python
+    prog 
     ;
 in {
   perSystem = {pkgs, ...}: let
@@ -16,8 +17,8 @@ in {
     in {
     packages = {
       nvf-regular = mkNvf [regular];
-      nvf-rust = mkNvf [regular rust];
-      nvf-python = mkNvf [regular python];
+      nvf-rust = mkNvf [regular rust prog];
+      nvf-python = mkNvf [regular python prog];
     };
   };
 }
