@@ -8,12 +8,6 @@
           treesitter.enable = true;
           format.enable = true;
         };
-        csharp = {
-          enable = true;
-          lsp.enable = true;
-          treesitter.enable = true;
-          format.enable = true;
-        };
       };
 
       diagnostics = {
