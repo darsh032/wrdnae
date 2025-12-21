@@ -6,6 +6,7 @@
           pkgs.cargo
           self'.packages.hx-rust
           pkgs.rustlings
+          pkgs.gcc
         ];
 
         interactive.fish.text = ''
