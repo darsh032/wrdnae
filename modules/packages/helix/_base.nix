@@ -1,5 +1,5 @@
 {
-  theme = "dark_plus";
+  theme = "tokyonight";
 
   editor = {
     soft-wrap.enable = true;
