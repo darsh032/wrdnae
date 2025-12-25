@@ -20,7 +20,7 @@ in {
       packages = with pkgs; [
         # Trying out
         nh
-        code
+        vscode
         gcc
         youtube-music
 
