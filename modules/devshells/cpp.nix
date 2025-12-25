@@ -4,7 +4,7 @@
       devshell = {
         packages = [
           self'.packages.hx-regular
-          pkgs.lang
+          pkgs.clang
           pkgs.clang-tools
           pkgs.cmake
           pkgs.ninja
