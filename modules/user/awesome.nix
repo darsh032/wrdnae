@@ -21,6 +21,8 @@ in {
         # Trying out
         nh
         youtube-music
+        vscode
+        clang
 
         # Caelestia
         inputs.caelestia-shell.packages."x86_64-linux".default
