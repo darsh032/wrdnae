@@ -11,7 +11,7 @@
         location = "https://flathub.org/repo/flathub.flatpakrepo";
       }];
       packages = [
-        # { appId = "org.smth.smth"; origin = "flathub"; }
+        { appId = "net.waterfox.waterfox"; origin = "flathub"; }
       ];
     };
   };
