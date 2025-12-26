@@ -1,5 +1,5 @@
 {
-  flake.modules.nvf.languages.rust = {
+  flake.modules.nvf.rust = {
     vim.languages = {
       rust = {
         enable = true;

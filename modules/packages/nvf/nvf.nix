@@ -7,6 +7,8 @@
 }: let
   inherit
     (config.flake.modules.nvf)
+    default
+    python
     regular
     ;
 in {
@@ -17,7 +19,8 @@ in {
       }).neovim;
   in {
     packages = {
-      nvf = mkNvf [regular];
+      nvf = mkNvf [default regular];
+      nvf-python = mkNvf [default python];
     };
   };
 }

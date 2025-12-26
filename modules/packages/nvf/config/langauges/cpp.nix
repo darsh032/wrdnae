@@ -1,5 +1,5 @@
 {
-  flake.modules.nvf.languages.cpp = {
+  flake.modules.nvf.cpp = {
     vim.languages = {
       clang = {
         enable = true;

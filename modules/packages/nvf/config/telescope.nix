@@ -5,6 +5,7 @@
         enable = true;
         mappings = {
           findFiles = "<leader>a";
+          gitFiles = "<leader>A";
         };
       };  
     };

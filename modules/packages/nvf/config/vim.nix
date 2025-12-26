@@ -4,7 +4,7 @@
       theme.enable = true;
       treesitter.enable = true;
       lsp.enable = true;
-      lineNumberMode = "number";
+      git.enable = true;
       clipboard = {
         enable = true;
         registers = "unnamedplus";

@@ -1,5 +1,5 @@
 {
-  flake.modules.nvf.languages.default = {
+  flake.modules.nvf.regular = {
     vim.languages = {
       qml = {
         enable = true;

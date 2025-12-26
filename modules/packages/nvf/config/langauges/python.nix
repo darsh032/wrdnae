@@ -1,5 +1,5 @@
 {
-  flake.modules.nvf.languages.python = {
+  flake.modules.nvf.python = {
     vim.languages = {
       python = {
         enable = true;
