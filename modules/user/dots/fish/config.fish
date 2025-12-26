@@ -10,7 +10,7 @@ end
 
 status is-interactive; and begin
 
-    set EDITOR hx
+    set EDITOR nvim
 
     # Zoxide
     zoxide init fish | source
