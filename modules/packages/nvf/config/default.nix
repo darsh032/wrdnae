@@ -1,5 +1,5 @@
 {config, ...}: {
-  flake.modules.nvf.default = {
+  flake.modules.nvf.regular = {
     imports = with config.flake.modules.nvf; [
       vim
     ];
