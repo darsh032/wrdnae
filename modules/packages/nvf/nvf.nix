@@ -1,0 +1,23 @@
+# Stolen from michael c buckley https://github.com/Michael-C-Buckley/nixos/blob/8f64b80bae603f4ba87d437ae1011322c67a4552/packages/nvf/outputs.nix#L7
+
+{
+  config,
+  inputs,
+  ...
+}: let
+  inherit
+    (config.flake.modules.nvf)
+    regular
+    ;
+in {
+  perSystem = {pkgs, ...}: let
+    mkNvf = modules:
+      (inputs.nvf.lib.neovimConfiguration {
+        inherit pkgs modules;
+      }).neovim;
+  in {
+    packages = {
+      nvf = mkNvf [regular];
+    };
+  };
+}
