@@ -3,7 +3,7 @@
     devshells.cpp = {
       devshell = {
         packages = [
-          self'.packages.hx-cpp
+          self'.packages.nvf-cpp
           pkgs.gcc
         ];
 

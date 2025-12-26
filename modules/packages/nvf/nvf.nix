@@ -10,6 +10,8 @@
     default
     python
     regular
+    cpp
+    rust
     ;
 in {
   perSystem = {pkgs, ...}: let
@@ -21,6 +23,8 @@ in {
     packages = {
       nvf = mkNvf [default regular];
       nvf-python = mkNvf [default python];
+      nvf-rust = mkNvf [default rust];
+      nvf-cpp = mkNvf [default cpp];
     };
   };
 }

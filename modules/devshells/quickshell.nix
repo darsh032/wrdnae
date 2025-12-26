@@ -5,7 +5,7 @@
         packages = [
           pkgs.fish
           inputs'.quickshell.packages.default
-          self'.packages.hx-regular
+          self'.packages.nvf
         ];
 
         interactive.fish.text = ''

@@ -4,7 +4,7 @@
       devshell = {
         packages = [
           pkgs.cargo
-          self'.packages.hx-rust
+          self'.packages.nvf-rust
           pkgs.rustlings
           pkgs.gcc
         ];
