@@ -12,9 +12,13 @@
       };
       theme = {
         enable = true;
-        name = "tokyonight";
-        style = "night";
+        name = "rose-pine";
+        style = "main";
       };
+      luaConfigRC.minimal = ''
+        vim.opt.shortmess:append("I")
+        vim.opt.fillchars = { eob = " " }
+      '';
     };
   };
 }
