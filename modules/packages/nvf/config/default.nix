@@ -6,6 +6,7 @@
       mini
       notes
       lsp
+      utils
     ];
   };
 }
