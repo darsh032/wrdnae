@@ -14,6 +14,7 @@
         enable = true;
         name = "rose-pine";
         style = "main";
+        transparent = true;
       };
       luaConfigRC.minimal = ''
         vim.opt.shortmess:append("I")
