@@ -5,6 +5,7 @@
         packages = [
           pkgs.cargo
           self'.packages.nvf-rust
+          self'.packages.hx-rust
           pkgs.rustlings
           pkgs.gcc
         ];
