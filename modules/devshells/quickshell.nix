@@ -5,7 +5,6 @@
         packages = [
           pkgs.fish
           inputs'.quickshell.packages.default
-          self'.packages.nvf
           self'.packages.hx-regular
         ];
 

@@ -4,7 +4,6 @@
       devshell = {
         packages = [
           pkgs.fish
-          self'.packages.nvf-python
           self'.packages.hx-python
           pkgs.python3
         ];
