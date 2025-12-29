@@ -13,8 +13,7 @@
             name = "rust";
             auto-format = true;
             indent = { tab-width = 4; unit = "    "; };
-            language-servers = [ "scls" "rust-analyzer" ];
-            formatter = { command = "rustfmt <<EOF"; };
+            language-servers = [ "rust-analyzer" ];
           }
         ];
 
@@ -42,7 +41,6 @@
       };
 
       extraPackages = with pkgs; [
-        simple-completion-language-server
         rust-analyzer
         rustfmt
       ];
