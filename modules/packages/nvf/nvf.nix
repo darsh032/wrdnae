@@ -10,7 +10,7 @@
     default
     python
     regular
-    # cpp
+    cpp
     rust
     ;
 in {
@@ -24,7 +24,7 @@ in {
       nvf = mkNvf [default regular];
       nvf-python = mkNvf [default python];
       nvf-rust = mkNvf [default rust];
-      # nvf-cpp = mkNvf [default cpp];
+      nvf-cpp = mkNvf [default cpp];
     };
   };
 }
