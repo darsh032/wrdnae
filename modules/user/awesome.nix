@@ -20,6 +20,7 @@ in {
       packages = with pkgs; [
         # Trying out
         nh
+        gimp
         python3
         youtube-music
 
