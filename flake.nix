@@ -12,7 +12,7 @@
     systems = {
       url = "github:nix-systems/default";
     };
-    ambxsd = {
+    ambxst = {
       url = "github:darsh032/uhh";
       inputs.nixpkgs.follows = "nixpkgs";
     };
