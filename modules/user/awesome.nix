@@ -23,6 +23,7 @@ in {
         gimp
         python3
         youtube-music
+        vesktop
 
         # Caelestia
         # inputs.caelestia-shell.packages."x86_64-linux".default
