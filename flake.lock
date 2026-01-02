@@ -11,16 +11,16 @@
         "quickshell": "quickshell"
       },
       "locked": {
-        "lastModified": 1767359152,
-        "narHash": "sha256-HP/xCPHS76EbMlMpzUIKEreIcbMyiD3bZcS0dcS+cr4=",
+        "lastModified": 1767359327,
+        "narHash": "sha256-Tdcnpcn42M+4q3sD1VwOU2q58gj0kWIzgX52nQjhO24=",
         "owner": "darsh032",
-        "repo": "ambxst-flake",
-        "rev": "1155bd49b8f8f8f2335b197e5c942e80c9cbd037",
+        "repo": "ambxst-fork-for-pr-idk",
+        "rev": "fffbd6f61e622ace1c8fb46201319957b8b5373a",
         "type": "github"
       },
       "original": {
         "owner": "darsh032",
-        "repo": "ambxst-flake",
+        "repo": "ambxst-fork-for-pr-idk",
         "type": "github"
       }
     },

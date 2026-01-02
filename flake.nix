@@ -13,7 +13,7 @@
       url = "github:nix-systems/default";
     };
     ambxst = {
-      url = "github:darsh032/ambxst-fork-for-pr-idk";
+      url = "git@github.com:darsh032/Ambxst-fork-for-pr-idk";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     # caelestia-shell = {
