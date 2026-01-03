@@ -25,6 +25,23 @@
         "type": "github"
       }
     },
+    "ambxst-fork": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1767337515,
+        "narHash": "sha256-2cRA7qc8eE+KYSGubhHwwH66h3jVbIi4EAHRwd6K624=",
+        "owner": "Dyssrupt",
+        "repo": "ambxst",
+        "rev": "f83a188ce08616a4ef8073e4488c60190ee0102b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dyssrupt",
+        "ref": "add-hibernate",
+        "repo": "ambxst",
+        "type": "github"
+      }
+    },
     "ambxst_2": {
       "flake": false,
       "locked": {
@@ -395,6 +412,7 @@
     "root": {
       "inputs": {
         "ambxst": "ambxst",
+        "ambxst-fork": "ambxst-fork",
         "devshell": "devshell",
         "flake-parts": "flake-parts_2",
         "hjem": "hjem",

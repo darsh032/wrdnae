@@ -16,6 +16,10 @@
       url = "github:darsh032/Ambxst-fork-for-pr-idk/nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    ambxst-fork = {
+      url = "github:Dyssrupt/ambxst/add-hibernate";  
+      flake = false;
+    };
     # caelestia-shell = {
     #   url = "github:caelestia-dots/shell";
     #   inputs.nixpkgs.follows = "nixpkgs";
