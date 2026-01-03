@@ -29,7 +29,7 @@ in {
           inherit pkgs;
           shellPkg = (inputs.ambxst.mkAmbxst {
             inherit pkgs;
-            src = inputs.ambxst-fork;
+            src = inputs.ambxst-src;
           });
         })
         self.packages."x86_64-linux".hx-regular

@@ -25,19 +25,19 @@
         "type": "github"
       }
     },
-    "ambxst-fork": {
+    "ambxst-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1767458142,
-        "narHash": "sha256-Iuk9tWJSAKaT2mfCpSPeb9uZUvHM+oRKtoWKsp5+VMw=",
-        "owner": "rafmiqgus",
-        "repo": "ambxst-fork",
-        "rev": "4727e6984b1090111fae0018f174401fb4a185a0",
+        "lastModified": 1767426728,
+        "narHash": "sha256-VURw+vBrRzIxZIJobIGbzMd7OHlwdOioP4xvvFBFqvY=",
+        "owner": "axenide",
+        "repo": "ambxst",
+        "rev": "5a3255ef7f6fde88c3192d2aab25393fa82ee4f5",
         "type": "github"
       },
       "original": {
-        "owner": "rafmiqgus",
-        "repo": "ambxst-fork",
+        "owner": "axenide",
+        "repo": "ambxst",
         "type": "github"
       }
     },
@@ -411,7 +411,7 @@
     "root": {
       "inputs": {
         "ambxst": "ambxst",
-        "ambxst-fork": "ambxst-fork",
+        "ambxst-src": "ambxst-src",
         "devshell": "devshell",
         "flake-parts": "flake-parts_2",
         "hjem": "hjem",

@@ -16,8 +16,8 @@
       url = "github:darsh032/Ambxst-fork-for-pr-idk/nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    ambxst-fork = {
-      url = "github:rafmiqgus/ambxst-fork";  
+    ambxst-src = {
+      url = "github:axenide/ambxst";  
       flake = false;
     };
   };
