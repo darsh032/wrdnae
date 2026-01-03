@@ -25,10 +25,6 @@ in {
         youtube-music
         vesktop
         obs-studio
-
-        # Caelestia
-        # inputs.caelestia-shell.packages."x86_64-linux".default
-        # inputs.caelestia-cli.packages."x86_64-linux".default
         (inputs.ambxst.mkCli {
           inherit pkgs;
           shellPkg = (inputs.ambxst.mkAmbxst {

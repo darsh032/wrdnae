@@ -1,5 +1,5 @@
 {
-  theme = "ashen";
+  theme = "default";
 
   editor = {
     soft-wrap.enable = true;
@@ -18,7 +18,7 @@
     # };
 
     cursor-shape = {
-      insert = "bar";
+      insert = "block";
       normal = "block";
       select = "block";
     };
