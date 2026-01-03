@@ -24,6 +24,7 @@ in {
         python3
         youtube-music
         vesktop
+        obs-studio
 
         # Caelestia
         # inputs.caelestia-shell.packages."x86_64-linux".default
